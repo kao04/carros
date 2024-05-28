@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --orange: #E28625;
+    --green: #006971;
+    --dark-green: #004140;
+    font-size: 62.5%;
+}
+
+.sedans {
+    background-color: var(--orange);
+}
+
+.suvs {
+    background-color: var(--green);
+}
+
+.luxury {
+    background-color: var(--dark-green);
+}
+
+main {
+    display: flex;
+    width: 92rem;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
